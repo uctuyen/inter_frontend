@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="demo2.css">
+  <script src="/js/home_page.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <title>Thiết kế giao diện</title>
+</head>
+<header>
+  <div class="container-fluid px-0" id="header-navbar">
+    <div class="container-xxl content-banner px-0 ">
+      <div class="row d-none d-md-flex" id="row-navbar">
+        <div class="col-md-4 navbar-content">
+          <div class="navbar-left">
+            <button type="button" class="btn"><i class="fa-solid fa-house"></i></button>
+            <button type="button" class="btn dropdown-toggle">
+              Sản Phẩm
+              <ul class="dropdown-menu" id="menu-main">
+                <li><a class="dropdown-item" href="#">Kem tẩy tế bào chết</a></li>
+                <li><a class="dropdown-item" href="#">Kem dưỡng mắt</a></li>
+                <li><a class="dropdown-item" href="#">Dưỡng ẩm da</a></li>
+              </ul>
+            </button>
+            <button type="button" class="btn">Giới thiệu</button>
+            <button type="button" class="btn dropdown-toggle">Khuyến mãi
+              <ul class="dropdown-menu" id="menu-main">
+                <li><a class="dropdown-item" href="#">Kem tẩy tế bào chết</a></li>
+                <li><a class="dropdown-item" href="#">Kem dưỡng mắt</a></li>
+                <li><a class="dropdown-item" href="#">Dưỡng ẩm da</a></li>
+              </ul>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4 navbar-content">
+          <div class="navbar-center">
+            <i class="icon-link"><img src="image/images/logo/logo-main.svg"></i>
+          </div>
+        </div>
+        <div class="col-md-4 navbar-content">
+          <div class="navbar-right">
+            <button type="button" class="btn">Tin tức</button>
+            <button type="button" class="btn dropdown-toggle">Đại lý
+              <ul class="dropdown-menu" id="menu-main">
+                <li><a class="dropdown-item" href="#">Kem tẩy tế bào chết</a></li>
+                <li><a class="dropdown-item" href="#">Kem dưỡng mắt</a></li>
+                <li><a class="dropdown-item" href="#">Dưỡng ẩm da</a></li>
+              </ul>
+            </button>
+            <button type="button" class="btn">Liên hệ</button>
+            <button type="button" class="btn"><i class="fas fa-shopping-basket"></i></button>
+            <div class="d-inline-block dropdown">
+              <button type="button" class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <img src="image/images/language/vi.jpg">
+              </button>
+              <div class="dropdown-menu" style="min-width:auto">
+                <li><a class="dropdown-item" href="#"> <img src="image/images/language/vi.jpg"></a></li>
+                <li><a class="dropdown-item" href="#"> <img src="image/images/language/en.jpg"></a></li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar d-block d-md-none">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <a class="navbar-brand" href="#"> <i class="icon-link"><img src="image/images/logo/logo.png"
+                style="width: 96px;"></i></a>
+          <div>
+            <button type="button" class="btn text-light">
+              <i class="fas fa-shopping-basket"></i>
+            </button>
+            <div class="d-inline-block dropdown">
+              <button type="button" class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <img src="image/images/language/vi.jpg">
+              </button>
+              <div class="dropdown-menu" style="min-width:auto">
+                <li><a class="dropdown-item" href="#"> <img src="image/images/language/vi.jpg"></a></li>
+                <li><a class="dropdown-item" href="#"> <img src="image/images/language/en.jpg"></a></li>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="offcanvas offcanvas-start text-bg-light" tabindex="-1" id="navbarTogglerDemo03"
+          aria-labelledby="navbarTogglerDemo03">
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Liên hệ
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Sữa Rửa Mặt H-SkinCare</a></li>
+                  <li><a class="dropdown-item" href="#">Kem Tẩy Tế Bào Chết</a></li>
+                  <li><a class="dropdown-item" href="#">Kem Dưỡng Mắt</a></li>
+                  <li><a class="dropdown-item" href="#">Kem Chống Lão hóa</a></li>
+                  <li><a class="dropdown-item" href="#">Dưỡng Ẩm Da</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Giới thiệu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">
+                  Khuyến mãi
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Đại Lý
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Sữa Rửa Mặt H-SkinCare</a></li>
+                  <li><a class="dropdown-item" href="#">Kem Tẩy Tế Bào Chết</a></li>
+                  <li><a class="dropdown-item" href="#">Kem Dưỡng Mắt</a></li>
+                  <li><a class="dropdown-item" href="#">Kem Chống Lão hóa</a></li>
+                  <li><a class="dropdown-item" href="#">Dưỡng Ẩm Da</a></li>
+                </ul>
+
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Tin Tức
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Sữa Rửa Mặt H-SkinCare</a></li>
+                  <li><a class="dropdown-item" href="#">Kem Tẩy Tế Bào Chết</a></li>
+                  <li><a class="dropdown-item" href="#">Kem Dưỡng Mắt</a></li>
+                  <li><a class="dropdown-item" href="#">Kem Chống Lão hóa</a></li>
+                  <li><a class="dropdown-item" href="#">Dưỡng Ẩm Da</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">
+                  Liên hệ
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="text-center content-carousel">
+        <h1 class="display-6" id="center-title1" style="font-style: italic;">Thành Phần Tự Nhiên
+          <img src="image/images/logo/bough-logo.png">
+        </h1>
+        <h1 class="display-1" id="center-title2">Tự Tin Tỏa Sáng</h1>
+        <button type="button" class="btn-header">
+          <h4>Đặt hàng ngay</h4>
+        </button>
+
+        <div class="carousel-indicators carousel-indicators-sm d-flex d-md-none">
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-banner">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade h-100">
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active h-100">
+            <img src="image/images/heroSlide/2.jpg" class="d-block w-100 h-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item h-100">
+            <img src="image/images/heroSlide/1.jpg" class="d-block w-100 h-100 img-thumbnail" alt="...">
+          </div>
+          <div class="carousel-item h-100">
+            <img src="image/images/heroSlide/2.jpg" class="d-block w-100 h-100 img-thumbnail" alt="...">
+          </div>
+          <div class="carousel-item h-100">
+            <img src="image/images/heroSlide/1.jpg" class="d-block w-100 h-100 img-thumbnail" alt="...">
+          </div>
+        </div>
+        <div class="button-navbar carousel-indicators carousel-indicators-md d-none d-md-flex">
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
+            aria-label="Slide 5"></button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</header>
+
+<body>
+  <!-- intro -->
+  <div class="container-fluid intro">
+    <div class="row" style="padding-top: 30px;">
+      <div class="col-md-6 col-lg-3 col-xxl-3">
+        <div><i class="fa fa-leaf"></i></div>
+        <div>
+          <p><b>Thành phần tự nhiên</b></p>
+        </div>
+        <div>
+          <p>Sản phẩm dưỡng da tinh chất từ yến đầu tiên ở Việt Nam</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 col-xxl-3 borderL">
+        <div><i class="fa-solid fa-temperature-three-quarters"></i></div>
+        <div>
+          <p><b>Độ PH Trung Tính</b></p>
+        </div>
+        <div>
+          <p>Sản phẩm dưỡng da tinh chất từ yến đầu tiên ở Việt Nam</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 col-xxl-3 borderL">
+        <div><i class="fa-solid fa-shield-virus"></i></div>
+        <div>
+          <p><b>Bảo Vệ Môi Trường</b></p>
+        </div>
+        <div>
+          <p>Sản phẩm dưỡng da tinh chất từ yến đầu tiên ở Việt Nam</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 col-xxl-3 borderL">
+        <div><i class="fa-solid fa-biohazard"></i></div>
+        <div>
+          <p><b>Không Chứa Paraben</b></p>
+        </div>
+        <div>
+          <p>Sản phẩm dưỡng da tinh chất từ yến đầu tiên ở Việt Nam</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- new-product -->
+  <div class="container-fluid new-product">
+    <div class="row">
+      <div class="col-md-12 col-xl-6 img-product">
+        <img src="./image/images/background/about-1.png" alt="">
+      </div>
+      <div class="col-md-12 col-xl-6 infor-product">
+        <div class="row">
+          <p>
+          <h3><i>Sản Phẩm Mới</i></h3>
+          <h1>Serum Dưỡng Da</h1>
+          <h1>Tinh Chất Yến Sào</h1>
+          <h1>Đầu Tiên Ở Việt Nam</h1>
+          <p>Với thành phần độc đáo của yến sào, serum không chỉ dưỡng ẩm sâu mà còn kích thích sản sinh collagen,
+            giảm nết nhăn.</p>
+          <p>Trải nghiệm sự trẻ trung và khám phá làn da mới với sự hỗ trợ toàn diện từ serum chăm sóc da hằng
+            ngày
+          </p>
+          <div class="row">
+            <div class="col-md-12 col-xl-6 take">
+              <button class="col-6 col-sm-6 col-xl-12">Đặt hàng ngay</button>
+            </div>
+            <div class="col-md-12 col-xl-6 add">
+              <button class="col-md-8 col-7 col-xl-6 col-xl-12">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- collection -->
+  <div class="collection">
+    <div class="text-collection">
+      <div class="i">
+        <i>Bộ Sưu Tập</i>
+      </div>
+      <div>
+        <p>VẺ ĐẸP TINH TẾ</p>
+      </div>
+    </div>
+
+
+    <!-- The slideshow/ -->
+    <div class="swiper mySwiper" style="width: 1300px;">
+      <div class="swiper-wrapper pb-5">
+        <div class="swiper-slide mb-2">
+          <div class="product-infor bg-light pt-2 ">
+            <div class="text-center collection-product mx-2">
+              <figure class="figure text-center m-4">
+                <img src="image/images/product/1.png" class="figure-img img-fluid rounded mx-2 d-block" alt="...">
+              </figure>
+            </div>
+            <div class="info-price mx-2 my-3">
+              <p class="mb-2">Sữa rửa mặt HSkin Care (750ml)</p>
+              <div class="price d-flex align-items-center my-3">
+                <small class="text-secondary me-1 text-decoration-line-through">900.000đ</small>
+                <span class="fw-bold mx-2 fs-6">700.000đ</span>
+                <small class="border border-danger px-1 rounded text-danger">Bán chạy</small>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center py-2 mx-3">
+              <a class="order-button rounded-pill px-4 w-75">Đặt Hàng</a>
+              <i class="fas fa-shopping-basket"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product-infor bg-light pt-2 ">
+            <div class="text-center collection-product mx-2">
+              <figure class="figure text-center m-4">
+                <img src="image/images/product/2.png" class="figure-img img-fluid rounded mx-2 d-block" alt="...">
+              </figure>
+            </div>
+            <div class="info-price mx-2 my-3">
+              <p class="mb-2">Sữa rửa mặt HSkin Care (750ml)</p>
+              <div class="price d-flex align-items-center my-3">
+                <small class="text-secondary me-1 text-decoration-line-through">900.000đ</small>
+                <span class="fw-bold mx-2 fs-6">700.000đ</span>
+
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center py-2 mx-3">
+              <a class="order-button rounded-pill px-4 w-75">Đặt Hàng</a>
+              <i class="fas fa-shopping-basket"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product-infor bg-light pt-2">
+            <div class="text-center collection-product mx-2">
+              <figure class="figure text-center m-4">
+                <img src="image/images/product/3.png" class="figure-img img-fluid rounded mx-2 d-block" alt="...">
+              </figure>
+            </div>
+            <div class="info-price mx-2 my-3">
+              <p class="mb-2">Sữa rửa mặt HSkin Care (750ml)</p>
+              <div class="price d-flex align-items-center my-3">
+                <small class="text-secondary me-1 text-decoration-line-through">900.000đ</small>
+                <span class="fw-bold mx-2 fs-6">700.000đ</span>
+
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center py-2 mx-3">
+              <a class="order-button rounded-pill px-4 w-75">Đặt Hàng</a>
+              <i class="fas fa-shopping-basket"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product-infor bg-light pt-2">
+            <div class="text-center collection-product mx-2">
+              <figure class="figure text-center m-4">
+                <img src="image/images/product/4.png" class="figure-img img-fluid rounded mx-2 d-block" alt="...">
+              </figure>
+            </div>
+            <div class="info-price mx-2 my-3">
+              <p class="mb-2">Sữa rửa mặt HSkin Care (750ml)</p>
+              <div class="price d-flex align-items-center my-3">
+                <small class="text-secondary me-1 text-decoration-line-through">900.000đ</small>
+                <span class="fw-bold mx-2 fs-6">700.000đ</span>
+
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center py-2 mx-3">
+              <a class="order-button rounded-pill px-4 w-75">Đặt Hàng</a>
+              <i class="fas fa-shopping-basket"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product-infor bg-light pt-2">
+            <div class="text-center collection-product mx-2">
+              <figure class="figure text-center m-4">
+                <img src="image/images/product/15.png" class="figure-img img-fluid rounded mx-2 d-block" alt="...">
+              </figure>
+            </div>
+            <div class="info-price mx-2 my-3">
+              <p class="mb-2">Sữa rửa mặt HSkin Care (750ml)</p>
+              <div class="price d-flex align-items-center my-3">
+                <small class="text-secondary me-1 text-decoration-line-through">900.000đ</small>
+                <span class="fw-bold mx-2 fs-6">700.000đ</span>
+
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center py-2 mx-3">
+              <a class="order-button rounded-pill px-4 w-75">Đặt Hàng</a>
+              <i class="fas fa-shopping-basket"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product-infor bg-light pt-2">
+            <div class="text-center collection-product mx-2">
+              <figure class="figure text-center m-4">
+                <img src="image/images/product/6.png" class="figure-img img-fluid rounded mx-2 d-block" alt="...">
+              </figure>
+            </div>
+            <div class="info-price mx-2 my-3">
+              <p class="mb-2">Sữa rửa mặt HSkin Care (750ml)</p>
+              <div class="price d-flex align-items-center my-3">
+                <small class="text-secondary me-1 text-decoration-line-through">900.000đ</small>
+                <span class="fw-bold mx-2 fs-6">700.000đ</span>
+
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center py-2 mx-3">
+              <a class="order-button rounded-pill px-4 w-75">Đặt Hàng</a>
+              <i class="fas fa-shopping-basket"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product-infor bg-light pt-2">
+            <div class="text-center collection-product mx-2">
+              <figure class="figure text-center m-4">
+                <img src="image/images/product/13.png" class="figure-img img-fluid rounded mx-2 d-block" alt="...">
+              </figure>
+            </div>
+            <div class="info-price mx-2 my-3">
+              <p class="mb-2">Sữa rửa mặt HSkin Care (750ml)</p>
+              <div class="price d-flex align-items-center my-3">
+                <small class="text-secondary me-1 text-decoration-line-through">900.000đ</small>
+                <span class="fw-bold mx-2 fs-6">700.000đ</span>
+
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center py-2 mx-3">
+              <a class="order-button rounded-pill px-4 w-75">Đặt Hàng</a>
+              <i class="fas fa-shopping-basket"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product-infor bg-light pt-2">
+            <div class="text-center collection-product mx-2">
+              <figure class="figure text-center m-4">
+                <img src="image/images/product/8.png" class="figure-img img-fluid rounded mx-2 d-block" alt="...">
+              </figure>
+            </div>
+            <div class="info-price mx-2 my-3">
+              <p class="mb-2">Sữa rửa mặt HSkin Care (750ml)</p>
+              <div class="price d-flex align-items-center my-3">
+                <small class="text-secondary me-1 text-decoration-line-through">900.000đ</small>
+                <span class="fw-bold mx-2 fs-6">700.000đ</span>
+
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center py-2 mx-3">
+              <a class="order-button rounded-pill px-4 w-75">Đặt Hàng</a>
+              <i class="fas fa-shopping-basket"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product-infor bg-light pt-2">
+            <div class="text-center collection-product mx-2">
+              <figure class="figure text-center m-4">
+                <img src="image/images/product/10.png" class="figure-img img-fluid rounded mx-2 d-block" alt="...">
+              </figure>
+            </div>
+            <div class="info-price mx-2 my-3">
+              <p class="mb-2">Sữa rửa mặt HSkin Care (750ml)</p>
+              <div class="price d-flex align-items-center my-3">
+                <small class="text-secondary me-1 text-decoration-line-through">900.000đ</small>
+                <span class="fw-bold mx-2 fs-6">700.000đ</span>
+
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center py-2 mx-3">
+              <a class="order-button rounded-pill px-4 w-75">Đặt Hàng</a>
+              <i class="fas fa-shopping-basket"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product-infor bg-light pt-2">
+            <div class="text-center collection-product mx-2">
+              <figure class="figure text-center m-4">
+                <img src="image/images/product/11.png" class="figure-img img-fluid rounded mx-2 d-block" alt="...">
+              </figure>
+            </div>
+            <div class="info-price mx-2 my-3">
+              <p class="mb-2">Sữa rửa mặt HSkin Care (750ml)</p>
+              <div class="price d-flex align-items-center my-3">
+                <small class="text-secondary me-1 text-decoration-line-through">900.000đ</small>
+                <span class="fw-bold mx-2 fs-6">700.000đ</span>
+
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center py-2 mx-3">
+              <a class="order-button rounded-pill px-4 w-75">Đặt Hàng</a>
+              <i class="fas fa-shopping-basket"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  </div>
+  <!-- Best seller -->
+
+  <div class="best-seller">
+    <div class="text-seller">
+      <div class="i">
+        <i>Sản Phẩm Được Yêu Thích</i>
+      </div>
+      <div>
+        <p>ĐƯỢC ĐÁNH GIÁ CAO NHẤT</p>
+      </div>
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="img row" style="margin-left: 100px;">
+            <img class="col-xl-6 col-md-6 col-lg-6" src="./image/images/product/5.png" alt="">
+            <div class="main-seller col-xl-6 col-md-6 col-lg-6">
+              <div class="infor-seller ">
+                <p>
+                <h3><i>Bộ Sản Phẩm Cơ Bản</i></h3>
+                </p>
+                <div class="money">
+                  <span class="original-price text-decoration-line-through">1.400.000đ</span>
+                  <span class="current-price">1.260.000đ</span>
+                  <span class="discount"> 10% </span>
+                </div>
+                <p>Dòng sản phẩm sữa rửa mặt và kem tẩy tế bào chết - lựa chọn hàng đầu
+                  cho làn da tươi trẻ và mịnh màng</p>
+                <p>Tận hưởng trải nghiệm làm sạch sâu, loại bỏ tế bào chết, để lại làn da mềm mại
+                  và rạng ngơi. Chăm sóc da hiệu quả, đem lại sự tự tin mỗi ngày.
+                </p>
+                <div class="col">
+                  <button class="take">Đặt hàng ngay</button>
+                  <button class="add">Thêm vào giỏ hàng</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img row">
+            <img class="col-xl-6 col-md-6 col-lg-6" src="./image/images/product/5.png" alt="">
+            <div class="main-seller col-xl-6 col-md-6 col-lg-6">
+              <div class="infor-seller ">
+                <p>
+                <h3><i>Bộ Sản Phẩm Cơ Bản</i></h3>
+                </p>
+                <div class="money">
+                  <span class="original-price text-decoration-line-through">1.400.000đ</span>
+                  <span class="current-price">1.260.000đ</span>
+                  <span class="discount"> 10% </span>
+                </div>
+                <p>Dòng sản phẩm sữa rửa mặt và kem tẩy tế bào chết - lựa chọn hàng đầu
+                  cho làn da tươi trẻ và mịnh màng</p>
+                <p>Tận hưởng trải nghiệm làm sạch sâu, loại bỏ tế bào chết, để lại làn da mềm mại
+                  và rạng ngơi. Chăm sóc da hiệu quả, đem lại sự tự tin mỗi ngày.
+                </p>
+                <div class="col">
+                  <button class="take">Đặt hàng ngay</button>
+                  <button class="add">Thêm vào giỏ hàng</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img row" style="margin-left: 100px;">
+            <img class="col-xl-6 col-md-6 col-lg-6" src="./image/images/product/5.png" alt="">
+            <div class="main-seller col-xl-6 col-md-6 col-lg-6">
+              <div class="infor-seller ">
+                <p>
+                <h3><i>Bộ Sản Phẩm Cơ Bản</i></h3>
+                </p>
+                <div class="money">
+                  <span class="original-price text-decoration-line-through">1.400.000đ</span>
+                  <span class="current-price">1.260.000đ</span>
+                  <span class="discount"> 10% </span>
+                </div>
+                <p>Dòng sản phẩm sữa rửa mặt và kem tẩy tế bào chết - lựa chọn hàng đầu
+                  cho làn da tươi trẻ và mịnh màng</p>
+                <p>Tận hưởng trải nghiệm làm sạch sâu, loại bỏ tế bào chết, để lại làn da mềm mại
+                  và rạng ngơi. Chăm sóc da hiệu quả, đem lại sự tự tin mỗi ngày.
+                </p>
+                <div class="col">
+                  <button class="take">Đặt hàng ngay</button>
+                  <button class="add">Thêm vào giỏ hàng</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img row" style="margin-left: 100px;">
+            <img class="col-xl-6 col-md-6 col-lg-6" src="./image/images/product/5.png" alt="">
+            <div class="main-seller col-xl-6 col-md-6 col-lg-6">
+              <div class="infor-seller ">
+                <p>
+                <h3><i>Bộ Sản Phẩm Cơ Bản</i></h3>
+                </p>
+                <div class="money">
+                  <span class="original-price text-decoration-line-through">1.400.000đ</span>
+                  <span class="current-price">1.260.000đ</span>
+                  <span class="discount"> 10% </span>
+                </div>
+                <p>Dòng sản phẩm sữa rửa mặt và kem tẩy tế bào chết - lựa chọn hàng đầu
+                  cho làn da tươi trẻ và mịnh màng</p>
+                <p>Tận hưởng trải nghiệm làm sạch sâu, loại bỏ tế bào chết, để lại làn da mềm mại
+                  và rạng ngơi. Chăm sóc da hiệu quả, đem lại sự tự tin mỗi ngày.
+                </p>
+                <div class="col">
+                  <button class="take">Đặt hàng ngay</button>
+                  <button class="add">Thêm vào giỏ hàng</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img row" style="margin-left: 100px;">
+            <img class="col-xl-6 col-md-6 col-lg-6" src="./image/images/product/5.png" alt="">
+            <div class="main-seller col-xl-6 col-md-6 col-lg-6">
+              <div class="infor-seller ">
+                <p>
+                <h3><i>Bộ Sản Phẩm Cơ Bản</i></h3>
+                </p>
+                <div class="money">
+                  <span class="original-price text-decoration-line-through">1.400.000đ</span>
+                  <span class="current-price">1.260.000đ</span>
+                  <span class="discount"> 10% </span>
+                </div>
+                <p>Dòng sản phẩm sữa rửa mặt và kem tẩy tế bào chết - lựa chọn hàng đầu
+                  cho làn da tươi trẻ và mịnh màng</p>
+                <p>Tận hưởng trải nghiệm làm sạch sâu, loại bỏ tế bào chết, để lại làn da mềm mại
+                  và rạng ngơi. Chăm sóc da hiệu quả, đem lại sự tự tin mỗi ngày.
+                </p>
+                <div class="col">
+                  <button class="take">Đặt hàng ngay</button>
+                  <button class="add">Thêm vào giỏ hàng</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  </div>
+  <div class="space">
+
+  </div>
+
+  <!-- promotionnnnnnnnnnnn -->
+  <div class="promotion container-fluid">
+    <div class="row">
+      <div class="img-promotion col-xl-5 col-md-12 col-sm-12 col-12 ">
+        <img class="promotion-img" src="image/images/background/promotion.png" alt="">
+        <img class="frame_top" src="image/images/frame_svg/frame_top.svg" alt="">
+        <img class="frame_bottom" src="image/images/frame_svg/frame_bottom.svg" alt="">
+
+      </div>
+      <div class="infor-promotion col-xl-7 col-md-12 col-sm-12 col-12">
+        <div class="d-flex flex-column  text-center">
+          <div class="title-promotion">
+            <h1>Khuyến Mãi</h1>
+          </div>
+          <div>
+            <span>TRẢO NGHIỆM SẢN PHẨM VỚI MỰC GIÁ TỐT NHẤT</span>
+          </div>
+          <div class="time-promotion">
+            <div>
+              <h1>01</h1>
+              <span>NGÀY</span>
+            </div>
+            <div>
+              <h1>59</h1>
+              <span>PHÚT</span>
+            </div>
+            <div>
+              <h1>23</h1>
+              <span>GIỜ</span>
+            </div>
+          </div>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="row p-3">
+                <div class="img col-xl-5 col-md-5  col-sm-5 col-5">
+                  <img src="image/images/product/10.png" alt="">
+                </div>
+                <div class="col-xl-7 col-md-7  col-sm-7 col-7">
+                  <div class="d-flex flex-column text-start ">
+                    <div>
+                      <span>Dưỡng Ẩm Da(350ml)</span>
+                    </div>
+                    <div>
+                      <spans style="font-size: 12px; color: grey;">
+                        <strike>900.000đ</strike></span>
+                    </div>
+                    <div>
+                      <span>700.000đ</span>
+                      <span class="sale">-35%</span>
+                    </div>
+                    <div class="btn-slideSwiper">
+                      <button class="order-button">Đặt hàng</button>
+                      <i class="fas fa-shopping-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="row p-3">
+                <div class="img col-xl-5 col-md-5  col-sm-5 col-5">
+                  <img src="image/images/product/11.png" alt="">
+                </div>
+                <div class="col-xl-7 col-md-7  col-sm-7 col-7">
+                  <div class="d-flex flex-column text-start ">
+                    <div>
+                      <span>Dưỡng Ẩm Da(350ml)</span>
+                    </div>
+                    <div>
+                      <spans style="font-size: 12px; color: grey;">
+                        <strike>900.000đ</strike></span>
+                    </div>
+                    <div>
+                      <span>700.000đ</span>
+                      <span class="sale">-35%</span>
+                    </div>
+                    <div class="btn-slideSwiper">
+                      <button class="order-button">Đặt hàng</button>
+                      <i class="fas fa-shopping-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="row p-3">
+                <div class="img col-xl-5 col-md-5  col-sm-5 col-5">
+                  <img src="image/images/product/11.png" alt="">
+                </div>
+                <div class="col-xl-7 col-md-7  col-sm-7 col-7">
+                  <div class="d-flex flex-column text-start ">
+                    <div>
+                      <span>Dưỡng Ẩm Da(350ml)</span>
+                    </div>
+                    <div>
+                      <spans style="font-size: 12px; color: grey;">
+                        <strike>900.000đ</strike></span>
+                    </div>
+                    <div>
+                      <span>700.000đ</span>
+                      <span class="sale">-35%</span>
+                    </div>
+                    <div class="btn-slideSwiper">
+                      <button class="order-button">Đặt hàng</button>
+                      <i class="fas fa-shopping-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="row p-3">
+                <div class="img col-xl-5 col-md-5  col-sm-5 col-5">
+                  <img src="image/images/product/10.png" alt="">
+                </div>
+                <div class="col-xl-7 col-md-7  col-sm-7 col-7">
+                  <div class="d-flex flex-column text-start ">
+                    <div>
+                      <span>Dưỡng Ẩm Da(350ml)</span>
+                    </div>
+                    <div>
+                      <spans style="font-size: 12px; color: grey;">
+                        <strike>900.000đ</strike></span>
+                    </div>
+                    <div>
+                      <span>700.000đ</span>
+                      <span class="sale">-35%</span>
+                    </div>
+                    <div class="btn-slideSwiper">
+                      <button class="order-button">Đặt hàng</button>
+                      <i class="fas fa-shopping-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="row p-3">
+                <div class="img col-xl-5 col-md-5  col-sm-5 col-5">
+                  <img src="image/images/product/11.png" alt="">
+                </div>
+                <div class="col-xl-7 col-md-7  col-sm-7 col-7">
+                  <div class="d-flex flex-column text-start ">
+                    <div>
+                      <span>Dưỡng Ẩm Da(350ml)</span>
+                    </div>
+                    <div>
+                      <spans style="font-size: 12px; color: grey;">
+                        <strike>900.000đ</strike></span>
+                    </div>
+                    <div>
+                      <span>700.000đ</span>
+                      <span class="sale">-35%</span>
+                    </div>
+                    <div class="btn-slideSwiper">
+                      <button class="order-button">Đặt hàng</button>
+                      <i class="fas fa-shopping-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="row p-3">
+                <div class="img col-xl-5 col-md-5  col-sm-5 col-5">
+                  <img src="image/images/product/10.png" alt="">
+                </div>
+                <div class="col-xl-7 col-md-7  col-sm-7 col-7">
+                  <div class="d-flex flex-column text-start ">
+                    <div>
+                      <span>Dưỡng Ẩm Da(350ml)</span>
+                    </div>
+                    <div>
+                      <spans style="font-size: 12px; color: grey;">
+                        <strike>900.000đ</strike></span>
+                    </div>
+                    <div>
+                      <span>700.000đ</span>
+                      <span class="sale">-35%</span>
+                    </div>
+                    <div class="btn-slideSwiper">
+                      <button class="order-button">Đặt hàng</button>
+                      <i class="fas fa-shopping-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="row p-3">
+                <div class="img col-xl-5 col-5">
+                  <img src="image/images/product/11.png" alt="">
+                </div>
+                <div class="col-xl-7 col-7">
+                  <div class="d-flex flex-column text-start">
+                    <div>
+                      <span>Dưỡng Ẩm Da(350ml)</span>
+                    </div>
+                    <div>
+                      <spans style="font-size: 12px; color: grey;">
+                        <strike>900.000đ</strike></span>
+                    </div>
+                    <div>
+                      <span>700.000đ</span>
+                      <span class="sale">-35%</span>
+                    </div>
+                    <div class="btn-slideSwiper">
+                      <button class="order-button">Đặt hàng</button>
+                      <i class="fas fa-shopping-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  </div>
+
+  <!-- feellllllllllllllllllllllllllllllllllll -->
+  <div class="container-fluid feel">
+    <div class="row text-feel">
+      <div class="i">
+        <i>Cảm nhận</i>
+      </div>
+      <div>
+        <p>KHÁCH HÀNG NÓI GÌ VỀ SẢN PHẨM</p>
+      </div>
+      <div class="feels">
+        <div id="carouselExampleIndicators2" class="carousel slide" data-bs-interval="4000">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="comment row justify-content-between">
+                <div id="vyhoang" class="cmt1 justify-content-center">
+                  <div class="w-75  ">
+                    <a>
+                      <i class="fa-solid fa-quote-left" style="font-size: 30px;"></i>
+                    </a>
+                    <h5>Sản Phẩm Tốt Ngoài Mong Đợi</h5>
+                    <p style="font-size: 20px;">"Sản phẩm sử dụng rất tốt, giá cả hợp lí, sẽ ủng hộ tiếp"</p>
+                    <div class="card1 ">
+                      <img class="card1-img-top" src="image/images/avatar/1.png" alt="Vy Hoàng">
+                      <div class="card1-body">
+                        <p class="card1-title">Vy Hoàng</p>
+                        <div class="rating">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star-half checked"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="maile" class="cmt2 ">
+                  <div class="w-75 ">
+                    <a>
+                      <i class="fa-solid fa-quote-left" style="font-size: 30px;"></i>
+                    </a>
+                    <h5>Sản Phẩm Tốt Ngoài Mong Đợi</h5>
+                    <p style="font-size: 20px;">"Sản phẩm sử dụng rất tốt, giá cả hợp lí, sẽ ủng hộ tiếp"</p>
+                    <div class="card1 ">
+                      <img class="card1-img-top" src="image/images/avatar/2.png" alt="Vy Hoàng">
+                      <div class="card1-body">
+                        <p class="card1-title">Mai Lê</p>
+                        <div class="rating">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="carousel-item">
+              <div class="comment row justify-content-between">
+                <div id="vyhoang" class="cmt1 justify-content-center">
+                  <div class="w-75  ">
+                    <a>
+                      <i class="fa-solid fa-quote-left" style="font-size: 30px;"></i>
+                    </a>
+                    <h5>Sản Phẩm Tốt Ngoài Mong Đợi</h5>
+                    <p style="font-size: 20px;">"Sản phẩm sử dụng rất tốt, giá cả hợp lí, sẽ ủng hộ tiếp"</p>
+                    <div class="card1 ">
+                      <img class="card1-img-top" src="image/images/avatar/1.png" alt="Vy Hoàng">
+                      <div class="card1-body">
+                        <p class="card1-title">Vy Hoàng</p>
+                        <div class="rating">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star-half checked"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="maile" class="cmt2 ">
+                  <div class="w-75 ">
+                    <a>
+                      <i class="fa-solid fa-quote-left" style="font-size: 30px;"></i>
+                    </a>
+                    <h5>Sản Phẩm Tốt Ngoài Mong Đợi</h5>
+                    <p style="font-size: 20px;">"Sản phẩm sử dụng rất tốt, giá cả hợp lí, sẽ ủng hộ tiếp"</p>
+                    <div class="card1 ">
+                      <img class="card1-img-top" src="image/images/avatar/2.png" alt="Vy Hoàng">
+                      <div class="card1-body">
+                        <p class="card1-title">Vy Hoàng</p>
+                        <div class="rating">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="carousel-item">
+              <div class="comment row justify-content-between">
+                <div id="vyhoang" class="cmt1 justify-content-center">
+                  <div class="w-75  ">
+                    <a>
+                      <i class="fa-solid fa-quote-left" style="font-size: 30px;"></i>
+                    </a>
+                    <h5>Sản Phẩm Tốt Ngoài Mong Đợi</h5>
+                    <p style="font-size: 20px;">"Sản phẩm sử dụng rất tốt, giá cả hợp lí, sẽ ủng hộ tiếp"</p>
+                    <div class="card1 ">
+                      <img class="card1-img-top" src="image/images/avatar/1.png" alt="Vy Hoàng">
+                      <div class="card1-body">
+                        <p class="card1-title">Vy Hoàng</p>
+                        <div class="rating">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star-half checked"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="maile" class="cmt2 ">
+                  <div class="w-75 ">
+                    <a>
+                      <i class="fa-solid fa-quote-left" style="font-size: 30px;"></i>
+                    </a>
+                    <h5>Sản Phẩm Tốt Ngoài Mong Đợi</h5>
+                    <p style="font-size: 20px;">"Sản phẩm sử dụng rất tốt, giá cả hợp lí, sẽ ủng hộ tiếp"</p>
+                    <div class="card1 ">
+                      <img class="card1-img-top" src="image/images/avatar/2.png" alt="Vy Hoàng">
+                      <div class="card1-body">
+                        <p class="card1-title">Mai Lê</p>
+                        <div class="rating">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="carousel-item">
+              <div class="comment row justify-content-between">
+                <div id="vyhoang" class="cmt1 justify-content-center">
+                  <div class="w-75  ">
+                    <a>
+                      <i class="fa-solid fa-quote-left" style="font-size: 30px;"></i>
+                    </a>
+                    <h5>Sản Phẩm Tốt Ngoài Mong Đợi</h5>
+                    <p style="font-size: 20px;">"Sản phẩm sử dụng rất tốt, giá cả hợp lí, sẽ ủng hộ tiếp"</p>
+                    <div class="card1 ">
+                      <img class="card1-img-top" src="image/images/avatar/1.png" alt="Vy Hoàng">
+                      <div class="card1-body">
+                        <p class="card1-title">Vy Hoàng/p>
+                        <div class="rating">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star-half checked"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="maile" class="cmt2 ">
+                  <div class="w-75 ">
+                    <a>
+                      <i class="fa-solid fa-quote-left" style="font-size: 30px;"></i>
+                    </a>
+                    <h5>Sản Phẩm Tốt Ngoài Mong Đợi</h5>
+                    <p style="font-size: 20px;">"Sản phẩm sử dụng rất tốt, giá cả hợp lí, sẽ ủng hộ tiếp"</p>
+                    <div class="card1 ">
+                      <img class="card1-img-top" src="image/images/avatar/2.png" alt="Vy Hoàng">
+                      <div class="card1-body">
+                        <p class="card1-title">Mai Lê</p>
+                        <div class="rating">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- experienceeeeeeeeeeeeeeeeeeeeeeeeeeeeee -->
+  <div class="container-fluid experience p-5 text-center">
+    <div id="text-experience">
+      <div class="i">
+        <i>Khuyến Mãi</i>
+      </div>
+      <div class="p">
+        <p>TRẢI NGHIỆM SẢN PHẨM VỚI MỨC GIÁ TỐT NHẤT</p>
+      </div>
+    </div>
+
+    <div id="demo4" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo4" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo4" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo4" data-bs-slide-to="2"></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner" style="padding-bottom: 35px;">
+        <div class="carousel-item active">
+          <div class="row ">
+            <div class="col-xxl-4 d-flex flex-column text-start">
+              <img src="image/images/news/1.jpg" alt="">
+              <p><b>Cách làm đẹp da bằng tổ yến ít ai biết</b></p>
+              <p>Trong tổ yến rất giàu chất đạm, đường bột, khoáng vi lượng,
+                chất xơ và 18 loại axit amin khác. Ngoài ra các tác dụng tăng cường
+                sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc
+                da ....
+              </p>
+            </div>
+            <div class="col-xxl-4 d-flex flex-column text-start">
+              <img src="image/images/blog/2.jpg" alt="">
+              <p><b>Cách làm đẹp da bằng tổ yến ít ai biết</b></p>
+              <p>Trong tổ yến rất giàu chất đạm, đường bột, khoáng vi lượng,
+                chất xơ và 18 loại axit amin khác. Ngoài ra các tác dụng tăng cường
+                sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc
+                da ....
+              </p>
+            </div>
+            <div class="col-xxl-4 d-flex flex-column text-start">
+              <img src="image/images/blog/3.jpg" alt="">
+              <p><b>Cách làm đẹp da bằng tổ yến ít ai biết</b></p>
+              <p>Trong tổ yến rất giàu chất đạm, đường bột, khoáng vi lượng,
+                chất xơ và 18 loại axit amin khác. Ngoài ra các tác dụng tăng cường
+                sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc
+                da ....
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row ">
+            <div class="col-xxl-4 d-flex flex-column text-start">
+              <img src="image/images/blog/1.jpg" alt="">
+              <p><b>Cách làm đẹp da bằng tổ yến ít ai biết</b></p>
+              <p>Trong tổ yến rất giàu chất đạm, đường bột, khoáng vi lượng,
+                chất xơ và 18 loại axit amin khác. Ngoài ra các tác dụng tăng cường
+                sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc
+                da ....
+              </p>
+            </div>
+            <div class="col-xxl-4 d-flex flex-column text-start">
+              <img src="image/images/blog/2.jpg" alt="">
+              <p><b>Cách làm đẹp da bằng tổ yến ít ai biết</b></p>
+              <p>Trong tổ yến rất giàu chất đạm, đường bột, khoáng vi lượng,
+                chất xơ và 18 loại axit amin khác. Ngoài ra các tác dụng tăng cường
+                sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc
+                da ....
+              </p>
+            </div>
+            <div class="col-xxl-4 d-flex flex-column text-start">
+              <img src="image/images/blog/3.jpg" alt="">
+              <p><b>Cách làm đẹp da bằng tổ yến ít ai biết</b></p>
+              <p>Trong tổ yến rất giàu chất đạm, đường bột, khoáng vi lượng,
+                chất xơ và 18 loại axit amin khác. Ngoài ra các tác dụng tăng cường
+                sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc
+                da ....
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row ">
+            <div class="col-xxl-4 d-flex flex-column text-start">
+              <img src="image/images/blog/1.jpg" alt="">
+              <p><b>Cách làm đẹp da bằng tổ yến ít ai biết</b></p>
+              <p>Trong tổ yến rất giàu chất đạm, đường bột, khoáng vi lượng,
+                chất xơ và 18 loại axit amin khác. Ngoài ra các tác dụng tăng cường
+                sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc
+                da ....
+              </p>
+            </div>
+            <div class="col-xxl-4 d-flex flex-column text-start">
+              <img src="image/images/blog/2.jpg" alt="">
+              <p><b>Cách làm đẹp da bằng tổ yến ít ai biết</b></p>
+              <p>Trong tổ yến rất giàu chất đạm, đường bột, khoáng vi lượng,
+                chất xơ và 18 loại axit amin khác. Ngoài ra các tác dụng tăng cường
+                sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc
+                da ....
+              </p>
+            </div>
+            <div class="col-xxl-4 d-flex flex-column text-start">
+              <img src="image/images/blog/3.jpg" alt="">
+              <p><b>Cách làm đẹp da bằng tổ yến ít ai biết</b></p>
+              <p>Trong tổ yến rất giàu chất đạm, đường bột, khoáng vi lượng,
+                chất xơ và 18 loại axit amin khác. Ngoài ra các tác dụng tăng cường
+                sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc
+                da ....
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <button type="button" class="btn-seen">Xem Tất Cả</button>
+    </div>
+  </div>
+
+
+  <div class="container-fluid news p-5 text-center">
+    <div id="text-news">
+      <div class="i">
+        <i>Tin Tức</i>
+      </div>
+      <div class="p">
+        <p>TRẢI NGHIỆM SẢN PHẨM VỚI MỨC GIÁ TỐT NHẤT</p>
+      </div>
+    </div>
+
+    <div id="demo5" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo5" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo5" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo5" data-bs-slide-to="2"></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner" style="padding-bottom: 35px;">
+        <div class="carousel-item active">
+          <div class="row ">
+            <div class="col-xxl-4 d-flex flex-column text-start">
+              <img src="image/images/news/1.jpg" alt="">
+              <p><b>Cách làm đẹp da bằng tổ yến ít ai biết</b></p>
+              <p>Trong tổ yến rất giàu chất đạm, đường bột, khoáng vi lượng,
+                chất xơ và 18 loại axit amin khác. Ngoài ra các tác dụng tăng cường
+                sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc
+                da ....
+              </p>
+            </div>
+            <div class="col-xxl-4 d-flex flex-column text-start">
+              <img src="image/images/news/2.jpg" alt="">
+              <p><b>Cách làm đẹp da bằng tổ yến ít ai biết</b></p>
+              <p>Trong tổ yến rất giàu chất đạm, đường bột, khoáng vi lượng,
+                chất xơ và 18 loại axit amin khác. Ngoài ra các tác dụng tăng cường
+                sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc
+                da ....
+              </p>
+            </div>
+            <div class="col-xxl-4 d-flex flex-column text-start">
+              <img src="image/images/news/3.jpg" alt="">
+              <p><b>Cách làm đẹp da bằng tổ yến ít ai biết</b></p>
+              <p>Trong tổ yến rất giàu chất đạm, đường bột, khoáng vi lượng,
+                chất xơ và 18 loại axit amin khác. Ngoài ra các tác dụng tăng cường
+                sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc
+                da ....
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+          <div class="row ">
+            <div class="col-xxl-4 d-flex flex-column text-start">
+              <img src="image/images/news/1.jpg" alt="">
+              <p><b>Cách làm đẹp da bằng tổ yến ít ai biết</b></p>
+              <p>Trong tổ yến rất giàu chất đạm, đường bột, khoáng vi lượng,
+                chất xơ và 18 loại axit amin khác. Ngoài ra các tác dụng tăng cường
+                sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc
+                da ....
+              </p>
+            </div>
+            <div class="col-xxl-4 d-flex flex-column text-start">
+              <img src="image/images/news/2.jpg" alt="">
+              <p><b>Cách làm đẹp da bằng tổ yến ít ai biết</b></p>
+              <p>Trong tổ yến rất giàu chất đạm, đường bột, khoáng vi lượng,
+                chất xơ và 18 loại axit amin khác. Ngoài ra các tác dụng tăng cường
+                sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc
+                da ....
+              </p>
+            </div>
+            <div class="col-xxl-4 d-flex flex-column text-start">
+              <img src="image/images/news/3.jpg" alt="">
+              <p><b>Cách làm đẹp da bằng tổ yến ít ai biết</b></p>
+              <p>Trong tổ yến rất giàu chất đạm, đường bột, khoáng vi lượng,
+                chất xơ và 18 loại axit amin khác. Ngoài ra các tác dụng tăng cường
+                sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc
+                da ....
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row ">
+            <div class="col-xxl-4 d-flex flex-column text-start">
+              <img src="image/images/news/1.jpg" alt="">
+              <p><b>Cách làm đẹp da bằng tổ yến ít ai biết</b></p>
+              <p>Trong tổ yến rất giàu chất đạm, đường bột, khoáng vi lượng,
+                chất xơ và 18 loại axit amin khác. Ngoài ra các tác dụng tăng cường
+                sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc
+                da ....
+              </p>
+            </div>
+            <div class="col-xxl-4 d-flex flex-column text-start">
+              <img src="image/images/news/2.jpg" alt="">
+              <p><b>Cách làm đẹp da bằng tổ yến ít ai biết</b></p>
+              <p>Trong tổ yến rất giàu chất đạm, đường bột, khoáng vi lượng,
+                chất xơ và 18 loại axit amin khác. Ngoài ra các tác dụng tăng cường
+                sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc
+                da ....
+              </p>
+            </div>
+            <div class="col-xxl-4 d-flex flex-column text-start">
+              <img src="image/images/news/3.jpg" alt="">
+              <p><b>Cách làm đẹp da bằng tổ yến ít ai biết</b></p>
+              <p>Trong tổ yến rất giàu chất đạm, đường bột, khoáng vi lượng,
+                chất xơ và 18 loại axit amin khác. Ngoài ra các tác dụng tăng cường
+                sức khỏe, tổ yến còn có tác dụng đặc biệt trong việc chăm sóc
+                da ....
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div>
+      <button type="button" class="btn-seen">Xem Tất Cả</button>
+    </div>
+  </div>
+
+
+
+  <div class="container-fluid footer">
+    <div class="row">
+      <div class="col-xxl-12 text-center">
+        <h1>Đăng Ký Để Nhận Ưu Đãi Độc Quyền</h1>
+      </div>
+      <div class="col-xxl-12">
+        <div class="row justify-content-center" style="padding-bottom: 33px;">
+          <div class="col-xxl-3">
+            <input type="email" class="form-control" id="email" placeholder="Enter email của bạn" name="email">
+          </div>
+          <div class="col-xxl-3">
+            <input type="hotline" class="form-control" id="phone" placeholder="Số Điện Thoại" name="phone">
+          </div>
+          <div class="col-xxl-3">
+            <button type="button" class="btn-seen">Đăng Ký</button>
+          </div>
+        </div>
+      </div>
+      <hr style="    width: 90%; margin-left: 78px; padding-top: 10px;">
+      <div class="col-xxl-12">
+        <div class="row" id="r10">
+          <div class="col-md-3 information">
+            <ul>
+              <p><b>Thông Tin Liên Hệ</b></p>
+              <li> <i class="fa-solid fa-location-dot"></i> 27A Lê Lợi, P.Xương Huân, Nha Trang, Khánh Hoà.
+              <li><i class="fa-solid fa-phone"></i> 0258.3818468 - 0905.161.468</li>
+              <li><i class="fa-regular fa-envelope"></i> yensaohoangphi@gmail.com</li>
+            </ul>
+          </div>
+          <div class="col-md-3 customer">
+            <ul>
+              <p><b>Khách Hàng</b></p>
+              <li>Chính sách đổi trả</li>
+              <li>Điều khoản và điều kiện</li>
+              <li>Những câu hỏi thường gặp</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <p><b>Sản Phẩm</b></p>
+              <li>Chính sách bán hàng</li>
+              <li>Hướng dẫn mua hàng</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <p><b>Kết nối với chúng tôi</b></p>
+            <div class="list-social">
+              <img src="image/images/vector/facebook.svg" alt="">
+              <img src="image/images/vector/instagram.svg" alt="">
+              <img src="image/images/vector/youtube.svg" alt="">
+              <img src="image/images/vector/zalo.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-12">
+          <img src="image/images/logo/bo-cong-thuong.png" alt="">
+        </div>
+      </div>
+      <div class="wrapCopyright bgColor4" style="height: 50px;">
+        <div class="container-xxl">
+          <div class="colCopyRight">
+            <div class="titleCopyright">
+              <p style="color: #fff">© Bản quyền thuộc về HSkin Care</p>
+            </div>
+            <div class="titleDeveloper">
+              <a target="_blank" href="https://www.sweetsoft.vn/"
+                title="Thiết kế web Nha Trang, công ty phần mềm SweetSoft">
+                Thiết kế và phát triển bởi SweetSoft JSC
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  var swiperBestSeller = new Swiper(".best-seller .mySwiper", {
+    pagination: {
+      el: " .swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      768: {
+        slidesPerView: 1,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+    },
+  });
+  var swiper = new Swiper(".collection .mySwiper", {
+    cssMode: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    mousewheel: true,
+    keyboard: true,
+
+    breakpoints: {
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 20,
+      },
+    },
+  });
+  var swiper = new Swiper(".promotion .mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      1024: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+    },
+  });
+</script>
+
+</html>
